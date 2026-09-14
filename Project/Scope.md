@@ -23,7 +23,7 @@ Students and staff often lose personal items on campus such as ID cards, electro
 - No payment/reward system for finders
 - No mobile app (web only)
 - No integration with external police/city lost-and-found databases
-- No UAE Pass integration for identity verification this version
+- No UAE Pass integration for identity verification 
 - No real-time chat between finder and owner (claims go through admin instead)
 
 5. Major Deliverables
