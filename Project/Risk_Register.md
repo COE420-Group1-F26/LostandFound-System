@@ -3,7 +3,7 @@
 The following risks were identified for the Lost and Found Property Claim
 System. Probability and impact are assessed on a Low / Medium / High scale.
 
-| ID | Risk Description | Possible Cause | Probability | Impact | Mitigation / Response Strategy |
+| Risk ID | Risk Description | Possible Cause | Probability | Impact | Mitigation / Response Strategy |
 | --- | --- | --- | --- | --- | --- |
 | R1 | Project requirements change after development has started | Team or stakeholder feedback reveals missing features once early increments are demonstrated | Medium | Medium | The incremental process model was selected partly for this reason: changes are absorbed into a later increment rather than forcing rework of completed features. Scope.md is treated as a living document and is updated whenever a change is agreed. |
 | R2 | An item is released to someone who is not the rightful owner | Ownership verification relies only on a claim form with no secondary check | Medium | High | The claim process requires the claimant's AUS ID together with identifying details that are not shown publicly in the listing, such as unique markings or contents. Campus security approves every release through the admin dashboard, so no item is released automatically by the system. |

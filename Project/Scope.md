@@ -25,6 +25,8 @@ Students and staff often lose personal items on campus such as ID cards, electro
 - No integration with external police/city lost-and-found databases
 - No UAE Pass integration for identity verification 
 - No real-time chat between finder and owner (claims go through admin instead)
+- No AI photo/image-recognition matching — matching is text-based only
+- No multi-campus support — single campus only
 
 5. Major Deliverables
 - Working web application
