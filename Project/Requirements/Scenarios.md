@@ -7,9 +7,14 @@
 | S-01 | Reporting a lost AirPods case | Item Owner (Sara, student) | 1. Sara, a second-year engineering student, realises after her 11:00 lecture on 14/09/2026 that she left her white AirPods Pro case in room EB2-110.<br>2. With 10 minutes before her next class, she opens the system in her phone's browser and logs in with her AUS email.<br>3. She selects "Report Lost Item", chooses the category Electronics, and describes it as a white AirPods Pro case with a small scratch on the lid.<br>4. She enters the location (EB2-110) and date lost (14/09/2026), uploads a photo, and adds a private identifying detail: the initials "S.A." engraved inside the lid.<br>5. The system saves the report and shows her a reference number.<br>6. The next morning, Sara receives an email that a possible match has been found. She opens the link, signs in, and views the found item's details and photo. |
 | S-02 | Searching for and claiming a lost backpack | Item Owner (Hamdan, student) | 1. Hamdan, a fourth-year student, leaves his navy blue backpack in the library's second-floor study area on 16/09/2026 during exam week.<br>2. He never filed a lost item report, so two days later he logs in from a library computer to check for himself.<br>3. He searches found items for "backpack" and filters by category Bags, location Library, and dates 16/09/2026 to 18/09/2026.<br>4. The system shows 3 results, newest first. One is a navy backpack found on the library's second floor.<br>5. He selects it and submits a claim with his AUS ID and two details not shown in the listing: a TI-84 calculator and a COE420 notebook with his name inside.<br>6. The system records the claim as "Pending Verification" and tells him campus security will contact him. |
 
-## Member 2 Contributions
+## Member 2 Contributions - Hamda Raed (g00100146)
 
-_To be added._
+
+| Scenario ID | Scenario Title | Actor/Stakeholder | Scenario Description |
+| --- | --- | --- | --- |
+| S-03 | Reporting a Found Item | Finder (student) | 1. A student is walking through the library entrance and finds a black backpack left on a bench.   2. He logs into the system using his AUS email.   3. He selects "Report Found Item," chooses the category Bags, and describes it as a black backpack with a small tear on the front pocket.   4. He enters the location found (Library Entrance) and date found (18/09/2026), then attaches one photo of the item.   5. The system saves the report, assigns it a reference number, and marks its status as "Pending Match." |
+| S-04 | Match Suggestion and Status Check | Finder / Email-Notification Service | 1. After the found-item report from S-03 is saved, the system automatically compares it against active lost-item reports using category, keywords, and location/date proximity.   2. The system finds a lost-item report with a similar description and location, and sends the Finder a notification that a possible match exists.   3. The next day, the Finder logs back in to check on the item he handed in.   4. He opens "My Reports" and selects the found-item report.   5. The system shows the current status as "Matched, Pending Claim," letting him know campus security is now handling verification. |
+
 
 ## Member 3 Contributions — Hamda Albahri (g00100284)
 
