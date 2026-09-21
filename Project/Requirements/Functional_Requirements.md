@@ -10,9 +10,17 @@
 |FR-04|The system shall notify the owner of a lost item report by email when a possible match is identified, including the found item's category, location found, date found, and a link to view its details.|S-01|Mahra Alhammadi (g00098713)|
 |FR-05|The system shall allow a logged-in user to submit a claim on a found item by entering their AUS ID and at least one identifying detail not shown in the public listing, and shall set the claim status to "Pending Verification".|S-02|Mahra Alhammadi (g00098713)|
 
-## Member 2 Contributions
+## Member 2 Contributions - Hamda Raed (g00100146) 
 
-*To be added.*
+
+| FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor |
+| --- | --- | --- | --- |
+| FR-06 | The system shall allow a Finder to report a found item by entering category, description, color, location found, and date/time found. | S-03 | Hamda Raed (g00100146) |
+| FR-07 | The system shall allow a Finder to attach up to 3 photos to a found-item report. | S-03 | Hamda Raed (g00100146) |
+| FR-08 | The system shall allow a Finder to edit or withdraw a found-item report they submitted, provided it has not already been claimed. | S-03 | Hamda Raed (g00100146) |
+| FR-09 | The system shall automatically generate a ranked list of candidate matches between found-item reports and lost-item reports based on category, description keywords, and location/date proximity. | S-04 | Hamda Raed (g00100146) |
+| FR-10 | The system shall allow a Finder to view the current status (Pending, Matched, Claimed, Returned) of an item they handed in. | S-04 | Hamda Raed (g00100146) |
+
 
 ## Member 3 Contributions — Hamda Albahri (g00100284)
 
