@@ -14,9 +14,15 @@
 
 _To be added._
 
-## Member 3 Contributions
+## Member 3 Contributions — Hamda Albahri (g00100284)
 
-_To be added._
+| NFR ID | Category | Non-Functional Requirement | Contributor |
+| --- | --- | --- | --- |
+| NFR-11 | Security | Access to the admin dashboard shall be restricted to authenticated campus security accounts; attempts by regular student or staff accounts to access admin functions shall be denied. | Hamda Albahri (g00100284) |
+| NFR-12 | Security | A campus security account shall be automatically logged out after 15 minutes of inactivity and shall require authentication again before accessing the admin dashboard. | Hamda Albahri (g00100284) |
+| NFR-13 | Privacy | Private identifying details submitted for claim verification shall only be visible to authorized campus security accounts and shall never be displayed in public lost or found item listings. | Hamda Albahri (g00100284) |
+| NFR-14 | Auditability | Every claim approval or rejection shall be recorded with the responsible campus security account, action performed, and date and time, and the audit record shall remain available for the duration of the academic semester. | Hamda Albahri (g00100284) |
+| NFR-15 | Security | After 5 consecutive failed login attempts on a campus security account within 10 minutes, the system shall temporarily block further login attempts to that account for 15 minutes. | Hamda Albahri (g00100284) |
 
 ## Team Consolidated
 
