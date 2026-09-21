@@ -11,9 +11,12 @@
 
 _To be added._
 
-## Member 3 Contributions
+## Member 3 Contributions — Hamda Albahri (g00100284)
 
-_To be added._
+| Scenario ID | Scenario Title | Actor/Stakeholder | Scenario Description |
+| --- | --- | --- | --- |
+| S-05 | Reviewing and approving an item claim | Campus Security Officer | 1. A campus security officer logs into the admin dashboard and sees a pending claim for a navy blue backpack found in the library. 2. The officer opens the claim and reviews the claimant's AUS ID and the identifying details provided, including a TI-84 calculator and a COE420 notebook inside the bag. 3. The officer compares these private details with the information recorded for the found item. 4. After confirming that the information matches, the officer approves the claim. 5. The system changes the claim status to "Approved," records the officer's action in the claim history, and marks the item as ready for release to the verified owner. |
+| S-06 | Resolving a disputed item claim | Campus Security Officer | 1. A campus security officer receives two claims for the same black laptop bag found in the Student Center on 20/09/2026. 2. The officer opens both claims through the admin dashboard and reviews the AUS IDs and private identifying details submitted by each claimant. 3. One claimant correctly identifies a red USB drive and a handwritten label inside the bag, while the other provides only general details visible in the listing. 4. The officer approves the verified claimant and rejects the other claim. 5. The system records both decisions in the claim history and updates the item so that it can only be released to the approved claimant. |
 
 ## Team Consolidated
 
