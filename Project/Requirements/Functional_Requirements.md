@@ -32,7 +32,13 @@
 
 *| FR-14 | The system shall prevent an item from being marked as ready for release unless a campus security officer has approved the associated claim. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |*
 
-*| FR-15 | The system shall maintain a claim history that records each approval or rejection, the campus security officer who performed the action, and the date and time of the action. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |*Team Consolidated
+*| FR-15 | The system shall maintain a claim history that records each approval or rejection, the campus security officer who performed the action, and the date and time of the action. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |*
 
-*To be added after the oral.*
+
+
+\## Team Consolidated
+
+
+
+\_To be added after the oral.\_
 
