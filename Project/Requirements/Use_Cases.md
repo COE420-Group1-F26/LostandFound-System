@@ -14,9 +14,15 @@
 
 _To be added._
 
-## Member 3 Contributions
+## Member 3 Contributions — Hamda Albahri (g00100284)
 
-_To be added._
+| UC ID | Use Case Name | Primary Actor | Short Description | Contributor |
+| --- | --- | --- | --- | --- |
+| UC-11 | View Pending Claims | Campus Security Officer | The officer views pending claims and reviews the associated item report, claimant's AUS ID, and private identifying details. | Hamda Albahri (g00100284) |
+| UC-12 | Approve Claim | Campus Security Officer | The officer approves a claim after verifying the claimant's AUS ID and identifying details, allowing the item to be prepared for release. | Hamda Albahri (g00100284) |
+| UC-13 | Reject Claim | Campus Security Officer | The officer rejects a claim when the claimant's identifying details do not sufficiently verify ownership of the item. | Hamda Albahri (g00100284) |
+| UC-14 | Resolve Disputed Claim | Campus Security Officer | The officer reviews competing claims for the same item, compares the submitted identifying details, and determines which claim should be approved or rejected. | Hamda Albahri (g00100284) |
+| UC-15 | View Claim History | Campus Security Officer | The officer views the history of claim decisions, including approvals, rejections, the responsible officer, and the date and time of each action. | Hamda Albahri (g00100284) |
 
 ## Team Consolidated
 
