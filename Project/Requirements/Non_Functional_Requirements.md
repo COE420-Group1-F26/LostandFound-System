@@ -14,12 +14,11 @@
 
 | NFR ID | Category | Non-Functional Requirement | Contributor |
 | --- | --- | --- | --- |
-| NFR-06 | Performance | The matching algorithm shall return candidate matches within 3 seconds for a database of up to 10,000 active reports. | Hamda Raed (g00100146) |
-| NFR-07 | Reliability | The found-item report submission feature shall be available at least 99% of the time during operating hours (8am–8pm). | Hamda Raed (g00100146) |
-| NFR-08 | Scalability | The system shall support at least 500 concurrent found-item report submissions without response time degrading more than 2x baseline. | Hamda Raed (g00100146) |
-| NFR-09 | Size | Each photo attached to a found-item report shall not exceed 5MB, with a maximum of 3 photos per report. | Hamda Raed (g00100146) |
-| NFR-10 | Maintainability | The match-scoring logic shall be implemented as a separate module so matching criteria can be updated without modifying the reporting or notification modules. | Hamda Raed (g00100146) |
-
+| NFR-06 | Performance | The system shall show matching suggestions within 3 seconds, even with up to 10,000 reports in the database. | Hamda Raed (g00100146) |
+| NFR-07 | Reliability | The system shall send match notification emails within 5 minutes of a match being found, and at least 98 out of 100 notifications shall actually go through. | Hamda Raed (g00100146) |
+| NFR-08 | Scalability | The system shall handle at least 500 people submitting found-item reports at the same time without slowing down by more than double. | Hamda Raed (g00100146) |
+| NFR-09 | Size | Each photo attached to a found-item report shall be no larger than 5MB, and a report can have up to 3 photos. | Hamda Raed (g00100146) |
+| NFR-10 | Maintainability | The matching logic shall be built as its own separate part of the system, so it can be updated later without breaking the reporting or notification features. | Hamda Raed (g00100146) |
 
 ## Member 3 Contributions — Hamda Albahri (g00100284)
 
