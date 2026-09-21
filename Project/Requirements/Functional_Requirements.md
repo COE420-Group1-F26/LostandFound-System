@@ -14,31 +14,17 @@
 
 *To be added.*
 
-## Member 3 Contributions
+## Member 3 Contributions — Hamda Albahri (g00100284)
 
-*### Hamda Albahri (g00100284)*
+| FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor |
+| --- | --- | --- | --- |
+| FR-11 | The system shall allow an authenticated campus security officer to view all pending claims, including the associated item report, claimant's AUS ID, and private identifying details submitted with the claim. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |
+| FR-12 | The system shall allow an authenticated campus security officer to approve a pending claim after reviewing the claimant's AUS ID and identifying details, and shall update the claim status to "Approved". | S-05 / Campus Security Officer | Hamda Albahri (g00100284) |
+| FR-13 | The system shall allow an authenticated campus security officer to reject a pending claim and shall update the claim status to "Rejected". | S-06 / Campus Security Officer | Hamda Albahri (g00100284) |
+| FR-14 | The system shall prevent an item from being marked as ready for release unless a campus security officer has approved the associated claim. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |
+| FR-15 | The system shall maintain a claim history that records each approval or rejection, the campus security officer who performed the action, and the date and time of the action. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |
 
+## Team Consolidated
 
-
-*| FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor |*
-
-*| --- | --- | --- | --- |*
-
-*| FR-11 | The system shall allow an authenticated campus security officer to view all pending claims, including the associated item report, claimant's AUS ID, and private identifying details submitted with the claim. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |*
-
-*| FR-12 | The system shall allow an authenticated campus security officer to approve a pending claim after reviewing the claimant's AUS ID and identifying details, and shall update the claim status to "Approved". | S-05 / Campus Security Officer | Hamda Albahri (g00100284) |*
-
-*| FR-13 | The system shall allow an authenticated campus security officer to reject a pending claim and shall update the claim status to "Rejected". | S-06 / Campus Security Officer | Hamda Albahri (g00100284) |*
-
-*| FR-14 | The system shall prevent an item from being marked as ready for release unless a campus security officer has approved the associated claim. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |*
-
-*| FR-15 | The system shall maintain a claim history that records each approval or rejection, the campus security officer who performed the action, and the date and time of the action. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |*
-
-
-
-\## Team Consolidated
-
-
-
-\_To be added after the oral.\_
+*To be added after the oral.*
 
