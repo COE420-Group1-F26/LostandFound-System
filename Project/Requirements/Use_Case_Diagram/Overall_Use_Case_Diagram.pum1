@@ -1,0 +1,76 @@
+@startuml
+left to right direction
+
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam linetype ortho
+skinparam nodesep 35
+skinparam ranksep 45
+
+actor "Item Owner" as Owner
+actor "Finder" as Finder
+
+rectangle "Lost and Found Property Claim System" {
+
+  together {
+    usecase "UC-01\nLog In" as UC01
+    usecase "UC-02\nReport Lost Item" as UC02
+    usecase "UC-03\nSearch Found Items" as UC03
+    usecase "UC-04\nView Match Notification" as UC04
+    usecase "UC-05\nSubmit Claim" as UC05
+  }
+
+  together {
+    usecase "UC-06\nReport Found Item" as UC06
+    usecase "UC-07\nAttach Photo\nto Report" as UC07
+    usecase "UC-08\nEdit or Withdraw\nFound Item Report" as UC08
+    usecase "UC-09\nGenerate Match\nSuggestions" as UC09
+    usecase "UC-10\nCheck Item Status" as UC10
+  }
+
+  together {
+    usecase "UC-11\nView Pending Claims" as UC11
+    usecase "UC-12\nApprove Claim" as UC12
+    usecase "UC-13\nReject Claim" as UC13
+    usecase "UC-14\nResolve Disputed Claim" as UC14
+    usecase "UC-15\nView Claim History" as UC15
+  }
+}
+
+actor "Email / Notification\nService" as Email
+actor "Campus Security\nOfficer" as Security
+
+' Item Owner
+Owner -- UC01
+Owner -- UC02
+Owner -- UC03
+Owner -- UC04
+Owner -- UC05
+
+' Finder
+Finder -- UC06
+Finder -- UC07
+Finder -- UC08
+Finder -- UC09
+Finder -- UC10
+
+' Notification Service
+Email -- UC04
+Email -- UC09
+
+' Campus Security Officer
+Security -- UC11
+Security -- UC12
+Security -- UC13
+Security -- UC14
+Security -- UC15
+
+' Extend relationship
+UC07 ..> UC06 : <<extend>>
+
+' Include relationships
+UC14 ..> UC11 : <<include>>
+UC14 ..> UC12 : <<include>>
+UC14 ..> UC13 : <<include>>
+
+@enduml
