@@ -25,4 +25,13 @@
 
 ## Team Consolidated
 
-_To be added after the oral._
+After reviewing the individual scenario contributions, the team confirmed that all six scenarios are within the project scope, represent distinct system interactions, and collectively cover the main stakeholders and functions of the Lost and Found Property Claim System.
+
+| Scenario ID | Scenario Title | Primary Actor/Stakeholder | Main System Function |
+| --- | --- | --- | --- |
+| S-01 | Reporting a Lost AirPods Case | Item Owner | Report a lost item and receive a possible match notification |
+| S-02 | Searching for and Claiming a Lost Backpack | Item Owner | Search found items and submit an ownership claim |
+| S-03 | Reporting a Found Item | Finder | Report a found item with its details and photo |
+| S-04 | Match Suggestion and Status Check | Finder / Email-Notification Service | Generate a possible match notification and allow report status checking |
+| S-05 | Reviewing and Approving an Item Claim | Campus Security Officer | Review and approve a claim after verifying ownership details |
+| S-06 | Resolving a Disputed Item Claim | Campus Security Officer | Review competing claims and determine the verified claimant |
