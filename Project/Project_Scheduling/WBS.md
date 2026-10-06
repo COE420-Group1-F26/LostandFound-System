@@ -17,21 +17,4 @@ Durations are in working days (Monday-Friday). The duration of each task is the 
 | T9 | Integrate and Test System | Integrate all modules and perform functional and integration testing. | T7, T8 | 4 |
 | T10 | Prepare Deployment | Prepare the completed system for deployment and perform final verification. | T9 | 2 |
 
-## Time Estimates
 
-Expected Time is calculated using:
-
-**E = (O + 4M + P) / 6**
-
-| ID | Optimistic (O) | Most Likely (M) | Pessimistic (P) | E (Exact) | E (Rounded) |
-| --- | --- | --- | --- | --- | --- |
-| T1 | 1 | 2 | 3 | 2.00 | 2 |
-| T2 | 2 | 3 | 4 | 3.00 | 3 |
-| T3 | 2 | 3 | 4 | 3.00 | 3 |
-| T4 | 1 | 2 | 3 | 2.00 | 2 |
-| T5 | 3 | 4 | 5 | 4.00 | 4 |
-| T6 | 3 | 4 | 5 | 4.00 | 4 |
-| T7 | 1 | 2 | 3 | 2.00 | 2 |
-| T8 | 3 | 4 | 5 | 4.00 | 4 |
-| T9 | 3 | 4 | 5 | 4.00 | 4 |
-| T10 | 1 | 2 | 3 | 2.00 | 2 |
