@@ -19,7 +19,7 @@ The Level-0 DFD breaks process 0 from the Context Diagram into six processes. It
 | --- | --- | --- | --- | --- |
 | D1 | User Accounts | Registered AUS accounts: email, password hash, AUS ID | P1 | P1 |
 | D2 | Lost Item Reports | Every lost item report with its category, description, location, date, photo, private identifying details and the owner's contact email | P2 | P5 |
-| D3 | Found Item Reports | Every found item record with its details, photo, status (listed, claimed, released, withdrawn) | P3, P6 | P3, P4, P5, P6 |
+| D3 | Found Item Reports | Every found item record with its details, photos and status (Pending, Matched, Claimed, Returned or Withdrawn) | P3, P6 | P3, P4, P5, P6 |
 | D4 | Match Suggestions | Possible lost/found pairs produced by the matching process, with a match score | P5 | P5 |
 | D5 | Claims | Claim requests, their verification details, decisions, dispute outcomes and decision history | P6 | P6 |
 
