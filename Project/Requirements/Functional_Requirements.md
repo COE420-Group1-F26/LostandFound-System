@@ -32,6 +32,14 @@
 | FR-14 | The system shall prevent an item from being marked as ready for release unless a campus security officer has approved the associated claim. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |
 | FR-15 | The system shall maintain a claim history that records each approval or rejection, the campus security officer who performed the action, and the date and time of the action. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) |
 
+## Lab 4 Addition — Hamda Bahakeem (g00100146)
+
+Added because the Lab 4 DFD consistency check found that UC-14 Resolve Disputed Claim had no matching functional requirement (FR-14 only covers release approval).
+
+| FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor |
+| --- | --- | --- | --- |
+| FR-16 | The system shall allow an authenticated campus security officer to view all claims submitted for the same found item side by side, approve the claim whose identifying details verify ownership, reject the competing claims, and record the resolution in the claim history. | S-06 / Campus Security Officer | Hamda Bahakeem (g00100146) |
+
 ## Team Consolidated
 
 | FR ID | Functional Requirement | Source Scenario/Stakeholder | Contributor | Original ID |
@@ -51,4 +59,5 @@
 | FR-13 | The system shall allow an authenticated campus security officer to reject a pending claim and shall update the claim status to "Rejected". | S-06 / Campus Security Officer | Hamda Albahri (g00100284) | FR-13 |
 | FR-14 | The system shall prevent an item from being marked as ready for release unless a campus security officer has approved the associated claim. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) | FR-14 |
 | FR-15 | The system shall maintain a claim history that records each approval or rejection, the campus security officer who performed the action, and the date and time of the action. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) | FR-15 |
+| FR-16 | The system shall allow an authenticated campus security officer to view all claims submitted for the same found item side by side, approve the claim whose identifying details verify ownership, reject the competing claims, and record the resolution in the claim history. | S-06 / Campus Security Officer | Hamda Bahakeem (g00100146) | FR-16 (added in Lab 4) |
 
