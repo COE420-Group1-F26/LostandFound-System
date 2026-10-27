@@ -19,7 +19,7 @@
 | FR-07 | The system shall allow a Finder to attach up to 3 photos to a found-item report. | S-03 | Hamda Raed (g00100146) |
 | FR-08 | The system shall allow a Finder to edit or withdraw a found-item report they submitted, provided it has not already been claimed. | S-03 | Hamda Raed (g00100146) |
 | FR-09 | The system shall automatically generate a ranked list of candidate matches between found-item reports and lost-item reports based on category, description keywords, and location/date proximity. | S-04 | Hamda Raed (g00100146) |
-| FR-10 | The system shall allow a Finder to view the current status (Pending, Matched, Claimed, Returned) of an item they handed in. | S-04 | Hamda Raed (g00100146) |
+| FR-10 | The system shall allow a Finder to view the current status (Pending, Matched, Claimed, Returned, Withdrawn) of an item they handed in. | S-04 | Hamda Raed (g00100146) |
 
 
 ## Member 3 Contributions — Hamda Albahri (g00100284)
@@ -53,7 +53,7 @@ Added because the Lab 4 DFD consistency check found that UC-14 Resolve Disputed 
 | FR-07 | The system shall allow a Finder to attach up to 3 photos to a found-item report. | S-03 | Hamda Raed (g00100146) | FR-07 |
 | FR-08 | The system shall allow a Finder to edit or withdraw a found-item report they submitted, provided it has not already been claimed. | S-03 | Hamda Raed (g00100146) | FR-08 |
 | FR-09 | The system shall automatically generate a ranked list of candidate matches between found-item reports and lost-item reports based on category, description keywords, and location/date proximity. | S-04 | Hamda Raed (g00100146) | FR-09 |
-| FR-10 | The system shall allow a Finder to view the current status (Pending, Matched, Claimed, Returned) of an item they handed in. | S-04 | Hamda Raed (g00100146) | FR-10 |
+| FR-10 | The system shall allow a Finder to view the current status (Pending, Matched, Claimed, Returned, Withdrawn) of an item they handed in. | S-04 | Hamda Raed (g00100146) | FR-10 |
 | FR-11 | The system shall allow an authenticated campus security officer to view all pending claims, including the associated item report, claimant's AUS ID, and private identifying details submitted with the claim. | S-05, S-06 / Campus Security Officer | Hamda Albahri (g00100284) | FR-11 |
 | FR-12 | The system shall allow an authenticated campus security officer to approve a pending claim after reviewing the claimant's AUS ID and identifying details, and shall update the claim status to "Approved". | S-05 / Campus Security Officer | Hamda Albahri (g00100284) | FR-12 |
 | FR-13 | The system shall allow an authenticated campus security officer to reject a pending claim and shall update the claim status to "Rejected". | S-06 / Campus Security Officer | Hamda Albahri (g00100284) | FR-13 |

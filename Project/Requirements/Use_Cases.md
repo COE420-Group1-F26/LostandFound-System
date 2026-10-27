@@ -17,8 +17,8 @@
 | UC-06 | Report Found Item | Finder | The finder submits details of an item they found, including category, description, location, and date. | Hamda Raed (g00100146) |
 | UC-07 | Attach Photo to Report | Finder | The finder adds a photo to a found-item report as evidence. | Hamda Raed (g00100146) |
 | UC-08 | Edit or Withdraw Found Item Report | Finder | The finder updates or cancels a report they submitted, as long as it hasn't been claimed. | Hamda Raed (g00100146) |
-| UC-09 | Generate Match Suggestions | Finder (secondary: Email / Notification Service) | The system compares found and lost reports and notifies the finder when it finds a likely match. | Hamda Raed (g00100146) |
-| UC-10 | Check Item Status | Finder | The finder checks the current status of an item they handed in (Pending, Matched, Claimed, Returned). | Hamda Raed (g00100146) |
+| UC-09 | Generate Match Suggestions | Finder (secondary: Email / Notification Service) | The system compares found and lost reports and emails the owner of the lost report when it finds a likely match (FR-04). The finder sees the match through their found report. | Hamda Raed (g00100146) |
+| UC-10 | Check Item Status | Finder | The finder checks the current status of an item they handed in (Pending, Matched, Claimed, Returned, Withdrawn). | Hamda Raed (g00100146) |
 
 ## Member 3 Contributions — Hamda Albahri (g00100284)
 
@@ -42,8 +42,8 @@
 | UC-06 | Report Found Item | Finder | The finder submits details of an item they found, including category, description, location, and date. | Hamda Raed (g00100146) | UC-06 |
 | UC-07 | Attach Photo to Report | Finder | The finder adds a photo to a found-item report as evidence. | Hamda Raed (g00100146) | UC-07 |
 | UC-08 | Edit or Withdraw Found Item Report | Finder | The finder updates or cancels a report they submitted, as long as it hasn't been claimed. | Hamda Raed (g00100146) | UC-08 |
-| UC-09 | Generate Match Suggestions | Finder (secondary: Email / Notification Service) | The system compares found and lost reports and notifies the finder when it finds a likely match. | Hamda Raed (g00100146) | UC-09 |
-| UC-10 | Check Item Status | Finder | The finder checks the current status of an item they handed in (Pending, Matched, Claimed, Returned). | Hamda Raed (g00100146) | UC-10 |
+| UC-09 | Generate Match Suggestions | Finder (secondary: Email / Notification Service) | The system compares found and lost reports and emails the owner of the lost report when it finds a likely match (FR-04). The finder sees the match through their found report. | Hamda Raed (g00100146) | UC-09 |
+| UC-10 | Check Item Status | Finder | The finder checks the current status of an item they handed in (Pending, Matched, Claimed, Returned, Withdrawn). | Hamda Raed (g00100146) | UC-10 |
 | UC-11 | View Pending Claims | Campus Security Officer | The officer views pending claims and reviews the associated item report, claimant's AUS ID, and private identifying details. | Hamda Albahri (g00100284) | UC-11 |
 | UC-12 | Approve Claim | Campus Security Officer | The officer approves a claim after verifying the claimant's AUS ID and identifying details, allowing the item to be prepared for release. | Hamda Albahri (g00100284) | UC-12 |
 | UC-13 | Reject Claim | Campus Security Officer | The officer rejects a claim when the claimant's identifying details do not sufficiently verify ownership of the item. | Hamda Albahri (g00100284) | UC-13 |
