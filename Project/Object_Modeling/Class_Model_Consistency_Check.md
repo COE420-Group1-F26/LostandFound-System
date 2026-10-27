@@ -59,7 +59,7 @@ All 16 functional requirements are covered.
 | D4 Match Suggestions | MatchSuggestion | Yes, the lost/found pair and the score |
 | D5 Claims | Claim, ClaimStatus, VerificationRecord, DisputeCase, ReleaseRecord | Yes, claims, decisions, disputes and the history |
 
-Every data store has a class, and every entity class is saved in a data store (ItemSearch and MatchingService are control classes, so they aren't stored).
+Every data store has a class, and every entity class except Notification is saved in a data store (ItemSearch and MatchingService are control classes, so they aren't stored). Notification is not kept in any data store: P5 passes it to the external Email / Notification Service (DFD flows Match Notification Request and Delivery Status).
 
 ## 4. Relationships and multiplicities in the consolidated diagram
 
@@ -94,7 +94,7 @@ I checked every line in Consolidated_Class_Diagram.drawio against section 7 of I
 | VerificationRecord ⇢ ClaimStatus | uses (dependency) | — | Type of the decision attribute (FR-15) | Yes |
 | MatchingService ⇢ Notification | uses (dependency) | — | notifyOwner() creates the notification (FR-04) | Yes |
 
-Small things I noticed (not wrong, just cosmetic): the MatchingService ⇢ Notification and VerificationRecord ⇢ ClaimStatus arrows don't have the «uses» label like the other dependencies, and the 0..* next to ItemSearch on "looks through" is a bit hidden by a line crossing. These don't change the model.
+Small things I noticed (not wrong, just cosmetic): the MatchingService ⇢ Notification and VerificationRecord ⇢ ClaimStatus arrows don't have the «uses» label like the other dependencies, and the 0..* next to ItemSearch on "looks through" is a bit hidden by a line crossing. These don't change the model. Member 2 fixed both before submission (the two «uses» labels were added and the 0..* label was moved), and the diagram in the report is the fixed version.
 
 ## 5. Handout requirements for the consolidated diagram
 
