@@ -11,7 +11,7 @@ The Level-0 DFD breaks process 0 from the Context Diagram into six processes. It
 | P3 | Manage Found Item Reports | UC-06, UC-07, UC-08, UC-10 | FR-06 to FR-08, FR-10 |
 | P4 | Search Found Items | UC-03 | FR-03 |
 | P5 | Match Items and Notify Owners | UC-04, UC-09 | FR-04, FR-09 |
-| P6 | Process and Decide Claims | UC-05, UC-11, UC-12, UC-13, UC-14, UC-15 | FR-05, FR-11 to FR-15 |
+| P6 | Process and Decide Claims | UC-05, UC-11, UC-12, UC-13, UC-14, UC-15 | FR-05, FR-11 to FR-16 |
 
 ## Data stores
 
