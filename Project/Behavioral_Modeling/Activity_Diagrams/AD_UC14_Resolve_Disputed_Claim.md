@@ -1,6 +1,6 @@
 # UC-14 Resolve Disputed Claim — Activity Diagram
 
-**Drawn by:** Mahra Alhammadi (g00098713)
+**Drawn by:** Hamda Albahri
 
 **Use case:** UC-14 Resolve Disputed Claim (same use case as the Lab 6 sequence diagram UC-14_Resolve_Disputed_Claim)
 

@@ -1,6 +1,6 @@
 # Activity Diagram Review and Validation
 
-**Reviewed by:** Mahra Alhammadi (g00098713)
+**Reviewed by:** Hamda Albahri
 
 **Diagrams reviewed:** AD_UC03_Search_Found_Items, AD_UC09_Generate_Match_Suggestions and AD_UC14_Resolve_Disputed_Claim in Project/Behavioral_Modeling/Activity_Diagrams.
 
@@ -23,7 +23,7 @@
 
 | Diagram | Problem | Fix | Fixed by |
 | --- | --- | --- | --- |
-| Selected_Workflows.md | The "Drawn by" column listed the task-division members, but UC-09 was drawn by Hamda Bahakeem and UC-14 by Mahra Alhammadi. | Replaced with the names of the members who drew each diagram. | Mahra Alhammadi |
+| Selected_Workflows.md | The "Drawn by" column listed the task-division members, but UC-09 was drawn by Hamda Bahakeem and UC-14 by Hamda Albahri. | Replaced with the names of the members who drew each diagram. | Hamda Albahri |
 
 ## Confirmation
 

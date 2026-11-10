@@ -1,6 +1,6 @@
 # Activity Diagram Consistency Check
 
-**Checked by:** Mahra Alhammadi (g00098713)
+**Checked by:** Hamda Albahri
 
 Each activity diagram was compared with Project/Requirements/Use_Cases.md and Functional_Requirements.md (Lab 3), the class diagram in Project/Object_Modeling/Class_Diagram (Lab 5), and its sequence diagram in Project/Behavioral_Modeling/Sequence_Diagrams (Lab 6).
 
