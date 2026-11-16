@@ -26,7 +26,7 @@ Every use case UC-01 to UC-15 is supported by one component and at least one int
 | UC-14 Resolve Disputed Claim | CO5 | IDisputeService.compareClaims, resolveDispute | FR-16 | Yes |
 | UC-15 View Claim History | CO5 | IClaimService.getClaimHistory | FR-15 | Yes |
 
-The security requirements NFR-11 and NFR-13 are supported by IAccountService.isOfficer (used by CO5) and by keeping the identifying details of a claim inside CO5. NFR-10 is supported by keeping the matching logic in CO4, separate from Report Management (CO2).
+The security requirements NFR-11 and NFR-13 are supported by IAccountService.isOfficer (used by CO5) and by keeping the identifying details of a claim inside CO5. NFR-10 is supported by keeping the matching logic in CO4, separate from Report Management (CO2). Matching and Notification share CO4 but stay separate classes; see Architectural_Style_Selection.md, section 6.
 
 ## B. Lab 5: classes and operations
 
@@ -52,7 +52,7 @@ All 17 classes of the consolidated class diagram are in Class_Distribution.md, e
 | UC-14 | Message 1: viewPendingClaims() on CampusSecurityOfficer; messages 3 to 16: DisputeCase, Claim and VerificationRecord | All in CO5 (CampusSecurityOfficer was placed in CO5 for this reason) | Yes |
 | UC-14 | Message 10: Claim (CO5) calls updateStatus(CLAIMED) on FoundItemReport (CO2) | CO5 requires IReportService from CO2 | Yes |
 
-In every diagram the actor's first message goes to the control object (ItemSearch, MatchingService, DisputeCase). In the architecture this is the Web Interface calling ISearchService, IMatchingService and IDisputeService.
+In UC-03 and UC-09 the actor's first message goes to the control object (ItemSearch, MatchingService); in UC-14 the officer works through CampusSecurityOfficer and DisputeCase, all inside CO5. In the architecture this is the Web Interface calling ISearchService, IMatchingService, IClaimService and IDisputeService.
 
 ## D. Lab 7: activity diagrams
 
